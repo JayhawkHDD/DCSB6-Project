@@ -10,3 +10,16 @@ You can view the current version approved by the SB6 board at:
 [Douglas County Success By 6](https://www.dcsb6.org)  
 
 
+##Team JayhawkHDD Version of DCSB6.ORG
+
+Below you can view the design implemented by JayhawkHDD. 
+
+
+###Home page
+
+   ![Alt text](client/public/assets/images/screenshots/homepage1.png "Top of Home Page")
+
+   ![Alt text](client/public/assets/images/screenshots/homepage3.png "Middle of Home Page")
+
+   ![Alt text](client/public/assets/images/screenshots/homepage3.png "Bottom of Home Page")
+
