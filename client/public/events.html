@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,24 +7,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="icon" href="assets/images/familyicon.png" type="image" sizes="16x16">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
     <meta name="google-signin-client_id" content="396344921620-hj3phvrgam8lqf8cticfohr855tjnj0p.apps.googleusercontent.com">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <!--navbar-light bg-light-->
         <a href="index.html"> <img src="assets/images/sbc1.jpg" class="headerLogo navbar-left">
         </a>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="U3QFVJKXNSNVY">
-            <button type="btn btn-outline-danger" class="donate" type="submit" data-toggle="tooltip" title="100% of Donations Go to the KIDS!!!"> <img src="assets/images/donate_white.png"border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="donateIcon">Donate</button>
+            <button type="btn btn-outline-danger submit" class="donate" data-toggle="tooltip" title="100% of Donations go to families with young children!!!"> <img src="assets/images/donate_white.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="donateIcon">Donate</button>
         </form>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" style="justify-content: flex-end;" id="navbarNav">
@@ -38,124 +42,55 @@
                 <li class="nav-item">
                     <a class="nav-link" href="stories.html">Stories</a>
                 </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="affiliates.html">Sponsors</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="affiliates.html">Partners</a>
+                </li>
             </ul>
         </div>
-         <!-- Google Login -->
+        <!-- Google Login -->
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </nav>
+    <br>
+    <br>
 
- <div class="container">
-		<div class="row">
-			<div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
-				<ul class="event-list">
-					<li>
-						<time datetime="2014-07-20">
-							<span class="day">4</span>
-							<span class="month">Jul</span>
-							<span class="year">2014</span>
-							<span class="time">ALL DAY</span>
-						</time>
-						<img alt="Independence Day" src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" />
-						<div class="info">
-							<h2 class="title">Independence Day</h2>
-							<p class="desc">United States Holiday</p>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
+    <div class="container-fluid wow animated bounceInDown">
+        <h1 class="display-3">Upcoming Events</h1>
+    </div>
+    <br>
+    <br>
 
-					<li>
-						<time datetime="2014-07-20 0000">
-							<span class="day">8</span>
-							<span class="month">Jul</span>
-							<span class="year">2014</span>
-							<span class="time">12:00 AM</span>
-						</time>
-						<div class="info">
-							<h2 class="title">One Piece Unlimited World Red</h2>
-							<p class="desc">PS Vita</p>
-							<ul>
-								<li style="width:50%;"><a href="#website"><span class="fa fa-globe"></span> Website</a></li>
-								<li style="width:50%;"><span class="fa fa-money"></span> $39.99</li>
-							</ul>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
+    <div class="flex-container wow animated fadeInUp">
+        <div class="card mb-3">
+            <img class="card-img-top eventsPic" src="./assets/images/group-shot-crop.jpg" alt="group shot">
+            <h3 class="card-header">January 25th, 2018</h3>
+            <div class="card-block">
+                <h2 class="card-title">Annual Breakfast</h2>
+                <p class="card-text">Maceli's<br> 1031 New Hampshire Street<br> Lawrence, KS 66044 </p>
+                <a href="./assets/images/Breakfast_Flyer.pdf" target="_blank" class="btn btn-primary"> More Info</a>
+            </div>
+        </div>
 
-					<li>
-						<time datetime="2014-07-20 2000">
-							<span class="day">20</span>
-							<span class="month">Jan</span>
-							<span class="year">2014</span>
-							<span class="time">8:00 PM</span>
-						</time>
-						<img alt="My 24th Birthday!" src="https://farm5.staticflickr.com/4150/5045502202_1d867c8a41_q.jpg" />
-						<div class="info">
-							<h2 class="title">Mouse0270's 24th Birthday!</h2>
-							<p class="desc">Bar Hopping in Erie, Pa.</p>
-							<ul>
-								<li style="width:33%;">1 <span class="glyphicon glyphicon-ok"></span></li>
-								<li style="width:34%;">3 <span class="fa fa-question"></span></li>
-								<li style="width:33%;">103 <span class="fa fa-envelope"></span></li>
-							</ul>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
+        <div class="card mb-3">
+            <img class="card-img-top eventsPic" src="./assets/images/Heidi-excited-with-mom-and-dad-crop.jpg" alt="group shot">
+            <h3 class="card-header">January 10th, 2018</h3>
+            <div class="card-block">
+                <h2 class="card-title">Positive Parenting</h2>
+                <p class="card-text">Centennial Adult Education Center<br> 2145 Louisiana Street<br> Lawrence, KS 66046</p>
+                <a href="./assets/images/Positive_Parenting_Flyer_Winter_2018.pdf" target="_blank" class="btn btn-primary">More Info</a>
+                <a href="mailto:docofamily2family@gmail.com" class="btn btn-outline-success"> Email to Reserve a Spot</a>
+            </div>
+        </div>
+    </div>
 
-					<li>
-						<time datetime="2014-07-31 1600">
-							<span class="day">31</span>
-							<span class="month">Jan</span>
-							<span class="year">2014</span>
-							<span class="time">4:00 PM</span>
-						</time>
-						<img alt="Disney Junior Live On Tour!" src="http://www.thechaifetzarena.com/images/main/DL13_PiratePrincess_thumb.jpg" />
-						<div class="info">
-							<h2 class="title">Disney Junior Live On Tour!</h2>
-							<p class="desc"> Pirate and Princess Adventure</p>
-							<ul>
-								<li style="width:33%;">$49.99 <span class="fa fa-male"></span></li>
-								<li style="width:34%;">$29.99 <span class="fa fa-child"></span></li>
-							</ul>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
+    <br>
+    <br>
     <footer>
-        <div class="container">
-            <h4 class="footerText" style="text-align: center;"> Copyright © 2017 DCSB6 </h4>
+        <div class="container wow animated lightSpeedIn animated" style="visibility: visible; animation-name: lightSpeedIn;">
+            <h4 class="footerText footerWhiteText" style="text-align: center;"> Copyright © 2017 DCSB6</h4>
+            <p class="footerWhiteText" style="text-align: center;">Site Designed by: Hamza Khawaja, Dan Tangen, David Waterman</p>
         </div>
     </footer>
+
 </body>
 
 
@@ -166,31 +101,16 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="assets/javascript/script.js"></script>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
-</body>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.images', {
+        duration: 1000,
+        origin: 'left',
+        mobile: true,
+        // reset: true,
+    })
+</script>
 
 </html>
-
-<!-- <div>
-        <a href="#"> <img src="sbc1.jpg" class="headerLogo navbar-left" />
-        </a>
-        <ul class="nav justify-content-end">
-            <nav class="navbar navbar-light bg-light">
-                <form class="form-inline">
-                    <button class="btn btn-outline-danger disabled" type="button">Donate</button>
-                </form>
-            </nav>
-
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Stories</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-            </li>
-        </ul>
-    </div> -->
