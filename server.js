@@ -10,7 +10,7 @@ var mongoose = require("mongoose");
 
 var app = express();
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoemails";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/emails";
 
 var port = process.env.PORT || 3000;
 
@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static(path.join(__dirname, 'client/public')));
 
 // Database configuration
-var databaseUrl = "email";
+var databaseUrl = MONGODB_URI;
 var collections = ["emails"];
 
 // Hook mongojs config to db variable
