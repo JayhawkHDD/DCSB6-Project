@@ -19,7 +19,7 @@ Below you can view the design implemented by JayhawkHDD.
 
    ![Alt text](client/public/assets/images/screenshots/homepage1.png "Top of Home Page")
 
-   ![Alt text](client/public/assets/images/screenshots/homepage3.png "Middle of Home Page")
+   ![Alt text](client/public/assets/images/screenshots/homepage2.png "Middle of Home Page")
 
    ![Alt text](client/public/assets/images/screenshots/homepage3.png "Bottom of Home Page")
 
