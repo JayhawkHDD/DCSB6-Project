@@ -34,7 +34,7 @@ Below you can view the design implemented by JayhawkHDD.
 ![Alt text](client/public/assets/images/screenshots/events2.png "Screenshot of Contact Page")
 
 ### Stories
-`Please note that the images do not appear like the image below when viewing the page live.'
+`Please note that the images do not appear like the image below when viewing the page live.`
 
 ![Alt text](client/public/assets/images/screenshots/fullpagestories.png "Screenshot of Contact Page")
 
