@@ -50,10 +50,6 @@
     <div class="bgimg-1">
         <div class="caption">
             <h2 class ="storiesHeadline">We provide needed resources for families with young children in Douglas County.</h2>
-            <br>
-            <span><img src="assets/images/sbc1.jpg" class="parallaxLogo"></span>
-            <br>
-            <br>
             <h2 class="storiesHeadline">Here are just a few of the people you have helped with your donation.</h2>
         </div>
     </div>
@@ -78,11 +74,11 @@
 
     <div class="bgimg-2">
         <div class="caption">
-            <span><img src="assets/images/sbc1.jpg" class="parallaxLogo"></span>
+            
         </div>
     </div>
 
-    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <div class="storiesText" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
 
         <h3 class="storyHeader">Success Story Two</h3>
         <p>Centro Hispano’s Therapist welcomed Jennifer Garcia* after she learned she was pregnant with her first child at the age of seventeen. The challenge of ensuring that our community guarantees that Jennifer and her child can pursue opportunities
@@ -103,7 +99,7 @@
 
     <div class="bgimg-3">
         <div class="caption">
-            <span><img src="assets/images/sbc1.jpg" class="parallaxLogo"></span>
+            
         </div>
     </div>
 
@@ -167,5 +163,16 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="assets/javascript/script.js"></script>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+        <script>
+                window.sr = ScrollReveal();
+                sr.reveal('.storiesText', {
+                    duration: 1000,
+                    origin: 'left',
+                    mobile: true,
+                    // reset: true,
+                })
+                </script>
 
 </html>
