@@ -32,7 +32,7 @@
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin-top: 25%;
+    /* margin-top: 5%; */
 }
 
 
@@ -106,6 +106,7 @@ footer {
 .footerText {
     padding-top: 40px;
     color: white;
+    text-align: center;
 }
 
 .textHolder {
@@ -146,6 +147,7 @@ html {
     color: white;
     font-size: 20px;
     text-align: center;
+    ]
 }
 
 .bgimg-1,
@@ -314,4 +316,24 @@ h3 {
 .card {
     text-align: center;
     border-color: #fff;
+}
+
+.missionStatement {
+    background: #0074D9;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.missionStatementText {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.donatebutton {
+    margin-top: 150%;
 }
