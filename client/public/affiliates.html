@@ -6,43 +6,59 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Favicon icon -->
     <link rel="icon" href="assets/images/familyicon.png" type="image" sizes="16x16">
+    <!-- Reset CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Bootstrap 4.0 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/css/animate.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <!-- Hover CSS -->
+    <link rel="stylesheet" href="assets/css/hover.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    <!-- Google Sign In -->
     <meta name="google-signin-client_id" content="396344921620-hj3phvrgam8lqf8cticfohr855tjnj0p.apps.googleusercontent.com">
 </head>
 
 <body>
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <!--navbar-light bg-light-->
-        <a href="index.html"> <img src="assets/images/sbc1.jpg" class="headerLogo navbar-left">
+        <!-- Logo -->
+        <a href="index.html"> <img src="assets/images/sbc1.jpg" class="headerLogo navbar-left" style="visibility: visible; animation-name: fadeInLeft;">
         </a>
+        <!-- PayPal Data -->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="U3QFVJKXNSNVY">
+            <!-- PayPal Button -->
             <button type="btn btn-outline-danger submit" class="donate" data-toggle="tooltip" title="100% of Donations go to families with young children!!!"> <img src="assets/images/donate_white.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="donateIcon">Donate</button>
         </form>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
         <div class="collapse navbar-collapse" style="justify-content: flex-end;" id="navbarNav">
             <ul class="navbar-nav">
+                <!-- Contact Link -->
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
+                <!-- Events Link -->
                 <li class="nav-item">
                     <a class="nav-link" href="events.html">Events</a>
                 </li>
+                <!-- Stories Link -->
                 <li class="nav-item">
                     <a class="nav-link" href="stories.html">Stories</a>
                 </li>
+                <!-- Partners Link -->
                 <li class="nav-item">
                     <a class="nav-link" href="affiliates.html">Partners</a>
                 </li>
@@ -51,17 +67,24 @@
         <!-- Google Login -->
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </nav>
+    <!-- End of Nav Bar -->
+
+    <!-- React Div -->
     <div class="jumbotron">
-        <!--<div class="imageDisplay">-->
-        <div id='root'></div>
-        <!--</div>-->
+        <div id="root"></div>
     </div>
+    <!-- End of React Div -->
+
+    <!-- Footer -->
     <footer>
         <div class="container wow animated lightSpeedIn animated" style="visibility: visible; animation-name: lightSpeedIn;">
-            <h4 class="footerText footerWhiteText" style="text-align: center;"> Copyright © 2017 DCSB6</h4>
+            <!-- Copyright Text -->
+            <h4 class="footerText footerWhiteText"> Copyright © 2017 DCSB6</h4>
+            <!-- Designed By Text -->
             <p class="footerWhiteText">Site Designed by: <a href="https://github.com/orgs/JayhawkHDD/people" target="_blank" class="footerWhiteText">JayhawkHDD</a></p>
         </div>
     </footer>
+    <!-- End of Footer -->
 
 
 
@@ -70,14 +93,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="assets/javascript/script.js">
-    </script>
+    <script src="assets/javascript/script.js"></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
     <script type="text/babel">
-
         class App extends React.Component { render() { return (
         <div className="flex-container">
             <a href="http://www.willowdvcenter.org/" target="_blank"><img src="./assets/images/affiliates/Willow_Logo.jpg" className="flex-item" /></a>

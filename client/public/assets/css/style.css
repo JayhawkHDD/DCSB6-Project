@@ -337,3 +337,10 @@ h3 {
 .donatebutton {
     margin-top: 150%;
 }
+
+.disclaimer {
+    position: relative;
+    text-align: center;
+    background: #0074D9;
+    color: white;
+}
